@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> <!-- this is how to make a comment -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   <!-- to help with mobile viewing -->
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    
+    <header class="topnav">
+      <div class="nav-left">
+        <img src="assets/img/logo.png" alt="Site Logo">
+      </div>
+      <nav class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="kitchen.html">Kitchen</a>
+        <a href="bartop.html">Bartop</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+
+    <section class="hero-wrapper">
+      <img src="assets/img/banner.jpg" alt="Banner" class="hero-img">
+      <div class="hero-text">
+        <h1>Wu's Tavern</h1>
+        <p class="hero-subtitle">your destination for all things food &amp; drink</p>
+      </div>
+    </section>
+
+    <main> <!-- main content -->
+
+      <section class="intro-text">
+        <h2>Welcome</h2>
+          <p>Here at Wu's Tavern, we believe that some of the simplest pleasures in life are also among the very best—food and drink are certainly no exception to that rule. However, information and guides on how to get started with cooking and mixology can be hard to find, difficult to follow, or just come off too daunting.</p>
+          <p>Hopefully, this site is fun and easy to explore, and who knows—maybe you'll come across some useful information while you're at it!</p>
+          <p>Feel free to scroll down for a tentative menu of our hypothetical restaurant (nonexistent, but hopefully to come in the next 30 years or so), or check out the other pages for a general guide to your home kitchen and bar! (complete with example recipes and tips here and there)</p>
+      </section>
+
+      <section class="menu-section">
+        <h2>Menu</h2>
+
+          <div class="menu-category">
+            <h3>Starters</h3>
+              <ul>
+              <li><strong>Charcuterie Board</strong> – caramelized onion cheese, aged white cheddar, smoked gouda, gorgonzola, prosciutto, salami, capocollo, mortadella, cotton candy grapes, onion jam, pita chips, gherkins <span class="price">20</span></li>
+              <li><strong>Cream of Onion Soup</strong> – a richer, decadent twist on the timeless classic</li>
+              <li><strong>Pickle Brine Salad</strong> – romaine, parmesan, brine-based vinaigrette</li>
+              <li><strong>Mushroom Mac & Cheese</strong> – shells, cream of mushroom, king oyster, truffle oil</li>
+              <li><strong>Kimchi Spring Rolls</strong> – grilled pork, bean sprouts, carrot, kimchi, nuoc cham <span class="price">10</span></li>
+              </ul>
+          </div>
+
+          <div class="menu-category">
+            <h3>Main Courses</h3>
+              <ul>
+              <li><strong>Spam Fried Rice</strong> – white rice, spam, peas, egg, secret seasoning <span class="price">17</span></li>
+              <li><strong>Sweet & Sour Ribs</strong> – pork ribs slow-cooked in black vinegar and rock sugar <span class="price">26</span></li>
+              <li><strong>East x West Fried Fish</strong> – szechuan tilapia & beer-battered cod combo <span class="price">28</span></li>
+              <li><strong>The King of Cuts</strong> – USDA prime 12 oz ribeye with mash or fries <span class="price">34</span></li>
+              </ul>
+          </div>
+
+          <div class="menu-category">
+            <h3>Desserts</h3>
+              <ul>
+              <li><strong>S'mores Brownie</strong> – rich chocolate brownie layered with marshmallow <span class="price">6</span></li>
+              <li><strong>Mango Sago Bowl</strong> – fresh mango, popping boba, lychee jelly, sago, milk <span class="price">8</span></li>
+              </ul>
+          </div>
+
+          <div class="menu-category">
+            <h3>Drinks</h3>
+              <ul>
+              <li><strong>Old Fashioned</strong> - whiskey, angostura bitters, demerara syrup <span class="price">12</span></li>
+              <li><strong>Lincoln Lake</strong> – rum, blue curaçao, elderflower, triple sec, soda <span class="price">15</span></li>
+              <li><strong>Butterbeer</strong> – vodka, cream soda, demerara butterscotch, caramel cream <span class="price">14</span></li>
+              <li><strong>Cosmic Margarita</strong> – butterfly pea flower infused tequila, lime, triple sec <span class="price">12</span></li>
+              </ul>
+          </div>
+
+          <p class="menu-note">Dishes and Drinks subject to change every month! 🍴</p>
+      </section>
+
+    </main>
+
+
+
+
+    <!-- JavaScript INTERACTIVE FEATURES -->
+    <footer class="site-footer">
+      <div class="footer-controls">
+        <div>
+          <strong>Adjust Font Size:</strong>
+          <button onclick="increaseFontSize()">A+</button>
+          <button onclick="decreaseFontSize()">A−</button>
+        </div>
+        <div>
+          <strong>Theme:</strong>
+          <button onclick="toggleTheme()">Switch Theme</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- link to js features -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> <!-- this is how to make a comment -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+
+    <!-- Updated top nav with logo -->
+    <header class="topnav">
+      <div class="nav-left">
+        <img src="assets/img/logo.png" alt="Site Logo">
+      </div>
+      <nav class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="kitchen.html">Kitchen</a>
+        <a href="bartop.html">Bartop</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <!-- Hero banner -->
+    <section class="hero-wrapper">
+      <img src="assets/img/banner.jpg" alt="Banner" class="hero-img">
+      <div class="hero-text">
+        <h1>Kitchen</h1>
+      </div>
+    </section>
+
+    <!-- Page content -->
+    <main>
+      <section class="recipe-gallery">
+        <h2>Featured Recipes</h2>
+
+          <div class="recipe-grid">
+
+            <div class="recipe-card">
+              <a href="recipes/recipe-a.html">
+                <img src="https://placehold.co/300x400?text=Recipe+A" alt="Recipe A">
+              </a>
+              <div class="recipe-info">
+                <h3>Mushroom Mac & Cheese</h3>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <a href="recipes/recipe-b.html">
+                <img src="https://placehold.co/300x400?text=Recipe+B" alt="Recipe B">
+              </a>
+              <div class="recipe-info">
+                <h3>Kimchi Spring Rolls</h3>
+              </div>
+            </div>
+
+            <div class="recipe-card">
+              <a href="recipes/recipe-c.html">
+                <img src="https://placehold.co/300x400?text=Recipe+C" alt="Recipe C">
+              </a>
+              <div class="recipe-info">
+                <h3>Cream of Onion Soup</h3>
+              </div>
+            </div>
+
+          </div>
+      </section>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="site-footer">
+      <div class="footer-controls">
+        <div>
+          <strong>Adjust Font Size:</strong>
+          <button onclick="increaseFontSize()">A+</button>
+          <button onclick="decreaseFontSize()">A−</button>
+        </div>
+        <div>
+          <strong>Theme:</strong>
+          <button onclick="toggleTheme()">Switch Theme</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
